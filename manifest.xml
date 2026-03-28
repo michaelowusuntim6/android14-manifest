@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="afterlife" fetch="https://github.com/AfterLifeProject/" revision="16" />
+  <remote name="afterlife" fetch="https://github.com/AfterlifeOS/" revision="16.2" />
   <remote name="github" fetch="https://github.com/" revision="main" />
+  <remote name="lineage" fetch="https://github.com/LineageOS/" revision="lineage-21.0" />
 
-  <project name="afterlife_manifest" path="manifest" remote="afterlife" />
+  <project name="AfterlifeOS/afterlife_manifest" path="manifest" remote="afterlife" />
 
   <project name="michaelowusuntim6/android_device_samsung_a04s" path="device/samsung/a04s" remote="github" />
   <project name="michaelowusuntim6/android_vendor_samsung_a04s" path="vendor/samsung/a04s" remote="github" />
   
   <project name="michaelowusuntim6/android_kernel_a047f_eur" path="kernel/samsung/a04s" remote="github" revision="sus" />
+
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="lineage" />
 
 </manifest>
