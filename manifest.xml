@@ -3,7 +3,8 @@
 
   <remote name="afterlife" fetch="https://github.com/AfterlifeOS/" revision="16.2" />
   <remote name="github" fetch="https://github.com/" revision="main" />
-  <remote name="lineage" fetch="https://github.com/LineageOS/" revision="lineage-21.0" />
+  
+  <remote name="lineage" fetch="https://github.com/LineageOS/" revision="lineage-23.2" />
 
   <project name="AfterlifeOS/afterlife_manifest" path="manifest" remote="afterlife" />
 
